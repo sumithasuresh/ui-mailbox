@@ -6,22 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css"
+          integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./libs/bootstrap-4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./libs/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>Mailbox</title>
 </head>
 <body>
-<div>
-    <nav class="nav nav-pills nav-stacked">
-        <a class="nav-link active" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled" href="#">Disabled</a>
-    </nav>
+<div class="container-fluid">
+    <div class="col-md-2">
+        <div class="container bg-inverse">
+            <div class="row">
+                <h3><b>Dash</b>Board</h3>
+            </div>
+            <div>
+                <nav class="nav nav-pills nav-stacked bg-inverse">
+                    <a class="nav-link" href="#">Dashboard</a>
+                    <a class="nav-link" href="#">Charts</a>
+                    <a class="nav-link" href="#">Tasks</a>
+                    <a class="nav-link" href="#">Comment</a>
+                    <a class="nav-link" href="#">Setting</a>
+                    <a class="nav-link" href="#">Feedback</a>
+                    <a class="nav-link" href="#">Links</a>
+                    <a class="nav-link" href="#">Social</a>
+                    <a class="nav-link" href="#">Mail</a>
+                    <a class="nav-link" href="#">Advertisement</a>
+                    <a class="nav-link" href="#">Logout</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-10">
+        <div class="row">
+            <nav class="navbar navbar-dark bg-inverse">
+                <form class="form-inline float-sm-left">
+                    <input class="form-control form-control-sm" type="text" placeholder="Search">
+                </form>
+                <ul class="nav navbar-nav">
+                    <!-- <li class="nav-item">
+                         <div class="col-sm-2">
+                             <div class="input-group">
+                                 <input type="text" class="form-control" placeholder="Search">
+                             </div>
+                         </div>
+                     </li> -->
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-inverse fa-bell"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-inverse fa-envelope"></span>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-light bg-faded">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <div class="col-sm-4">
+                            <h4><b>Mail</b>box</h4>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-inbox"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-star"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-trash"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-send"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-exclamation-circle"></span>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="col-sm-1">
+                            <span class="fa fa-refresh"></span>
+                        </div>
+                    </li>
+                </ul>
+                <!-- <div class="col-sm-4">
+                     <h4>Mailbox</h4>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-inbox"></span>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-star-o"></span>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-trash-o"></span>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-send-o"></span>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-exclamation-circle"></span>
+                 </div>
+                 <div class="col-sm-1">
+                     <span class="fa fa-refresh"></span>
+                 </div> -->
+            </nav>
+        </div>
+        <div class="row">
+
+        </div>
+        <div class="row">
+
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
 </div>
 
+
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+        integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"
+        integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8"
+        crossorigin="anonymous"></script>
+<script src="./libs/bootstrap-4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
