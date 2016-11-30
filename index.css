@@ -19,6 +19,33 @@ html, body {
     padding: 10px;
 }
 
+.inbox-content-grey{
+    background-color: #fcfcfc;
+    border-left: 1px solid #fcfcfc;
+    border-right: 1px solid #fcfcfc;
+    border-bottom: 1px solid #fcfcfc;
+    border-top: 1px solid #fcfcfc;
+    padding: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    align-content: center;
+}
+
+.inbox-content-white{
+    background-color: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 2px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 .nav-tabs {
     margin-bottom: 0;
 }
@@ -26,3 +53,4 @@ html, body {
 .grey-text{
     color: #d6d6d6;
 }
+
