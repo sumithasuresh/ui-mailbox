@@ -22,26 +22,24 @@
         <li class="nav-item col-md-3">
             <input class="form-control" type="text" placeholder="Search" style="background-color: #616161; color: white">
         </li>
-        <li class="nav-item col-md-1">
-                <span class="fa fa-inverse fa-bell"></span>
+        <li class="nav-item col-xs">
+                <span class="fa fa-inverse fa-bell align-middle"></span>
         </li>
-        <li class="nav-item col-md-1">
-            <i class="fa fa-inverse fa-envelope"></i>
+        <li class="nav-item col-xs">
+            <i class="fa fa-inverse fa-envelope align-middle"></i>
         </li>
         <li class="nav-item col-md-3">
-
         </li>
-        <li class="nav-item text-white col-md-3">
+        <span class="pull-right">
+        <li class="nav-item text-white">
+            <img src="https://placehold.it/32x32" alt="Robert" class="rounded-circle">
             <b>Hi,</b>Robert
             <i class="fa fa-chevron-down fa-inverse"></i>
         </li>
+            </span>
     </ul>
 </nav>
 <nav class="nav nav-pills nav-stacked bg-inverse col-md-3 fill-height">
-    <!-- <li class="nav-link white-text" href="#"></li>
-    <li class="nav-link white-text" href="#"></li>
-    <li class="nav-link white-text" href="#"></li>
-    <li class="nav-link white-text" href="#"></li> -->
     <li class="nav-link grey-text" href="#">
         <div class="row">
             <div class="col-md-1">
@@ -87,7 +85,8 @@
                 <i class="fa fa-comment fa-inverse"></i>
             </div>
             <div class="col-md-8">
-                Comment
+                <span>Comment</span>
+                <span class="align-middle text-md-center tag tag-pill tag-warning">10</span>
             </div>
             <div class="col-md-1">
                 <i class="fa fa-chevron-right fa-inverse"></i>
@@ -213,6 +212,7 @@
                         <h4><b>Mail</b>box</h4>
                     </div>
                 </li>
+                <span class=" pull-right">
                 <li class="nav-item">
                     <div class="col-md-1">
                         <span class="fa fa-inbox"></span>
@@ -244,10 +244,11 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <div class="col-md-1">
+                    <div class="">
                       <button class="btn btn-secondary btn-sm bg-faded">More&nbsp;<i class="fa fa-chevron-down small"></i></button>
                     </div>
                 </li>
+                    </span>
             </ul>
         </nav>
     </div>
@@ -256,15 +257,17 @@
             <div class="row">
                 <div class="container">
                     <div class="col-md-9">
-                        <button class="btn btn-secondary btn-sm" style="background-color: #16a085; color: white">
+                        <button class="btn btn-secondary btn-sm col-md align-middle" style="background-color: #16a085; color: white">
                             COMPOSE
                         </button>
                     </div>
-                    <div class="col-md-3">
-                        <label><b>21</b>&nbsp;of&nbsp;<b>432</b></label>
+                    <span class=" pull-right">
+                    <div>
+                        <label><b>12</b>&nbsp;of&nbsp;<b>432</b></label>
                         <button class="btn btn-secondary btn-sm"><span class="fa fa-chevron-left"></span></button>
                         <button class="btn btn-secondary btn-sm"><span class="fa fa-chevron-right"></span></button>
                     </div>
+                        </span>
                 </div>
             </div>
             <div class="row">
@@ -286,29 +289,183 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="inbox" role="tabpanel" aria-labelledby="inbox">
                             <div class="inbox-content-grey">
-                                <label class="custom-control custom-checkbox">
+                                <label class="custom-control custom-checkbox align-middle">
                                     <input type="checkbox" class="custom-control-input">
                                     <span class="custom-control-indicator"></span>
                                     <span class="custom-control-description"></span>
-                                    <span class="starred"><i class="fa fa-star" style="color: #ffc70e"></i></span>
-                                    <span class="tag tag-info">Work</span>
-                                    <span class="from"><strong>Steve Jobs</strong></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
                                 </label>
                                 <span class="pull-right">
-									<span>2:32 Am</span>
+									<span>9:43</span>
 								</span>
                             </div>
                             <div class="inbox-content-white">
-                                <label class="custom-control custom-checkbox">
+                                <label class="custom-control custom-checkbox align-middle">
                                     <input type="checkbox" class="custom-control-input">
                                     <span class="custom-control-indicator"></span>
                                     <span class="custom-control-description"></span>
-                                    <span class="starred"><i class="fa fa-star" style="color: #d6d6d6"></i></span>
-                                    <span class="tag" style="background-color: #ff8c76">Home</span>
-                                    <span class="from"><strong>My Brother</strong></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
                                 </label>
                                 <span class="pull-right">
-									<span>2:32 Am</span>
+									<span>21:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-grey">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
+                                </label>
+                                <span class="pull-right">
+									<span>9:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-white">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
+                                </label>
+                                <span class="pull-right">
+									<span>21:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-grey">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
+                                </label>
+                                <span class="pull-right">
+									<span>9:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-white">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
+                                </label>
+                                <span class="pull-right">
+									<span>21:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-grey">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
+                                </label>
+                                <span class="pull-right">
+									<span>9:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-white">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
+                                </label>
+                                <span class="pull-right">
+									<span>21:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-grey">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
+                                </label>
+                                <span class="pull-right">
+									<span>9:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-white">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
+                                </label>
+                                <span class="pull-right">
+									<span>21:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-grey">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #ffc70e"></i></span>
+                                    <span class="col-xs tag tag-info pull-left" style="border: 5px">Work&nbsp;</span>
+                                    <span class="col-xs align-middle pull-left"><strong>Steve Jobs&nbsp;</strong></span>
+                                    <span class="col-md align-middle pull-left">Can u meet me today?</span>
+                                    <span class="col-md align-middle pull-left">Hi Baara, can u please...</span>
+                                </label>
+                                <span class="pull-right">
+									<span>9:43</span>
+								</span>
+                            </div>
+                            <div class="inbox-content-white">
+                                <label class="custom-control custom-checkbox align-middle">
+                                    <input type="checkbox" class="custom-control-input">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description"></span>
+                                    <span class="col-xs align-middle pull-left"><i class="fa fa-star align-middle" style="color: #d6d6d6"></i></span>
+                                    <span class="col-xs tag align-middle pull-left" style="background-color: #ff8c76">Home</span>
+                                    <span class="col-xs align-middle pull-left"><strong>My Brother</strong></span>
+                                    <span class="col-md align-middle pull-left">Where're you dude?&nbsp;&nbsp;&nbsp;</span>
+                                    <span class="col-md align-middle pull-left">Dude, i need u now</span>
+                                </label>
+                                <span class="pull-right">
+									<span>21:43</span>
 								</span>
                             </div>
                         </div>
